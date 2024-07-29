@@ -1,10 +1,20 @@
 {
-  "index": "Introduction",
-  "getting-started": "Getting Started",
+  "index": {
+    "title": "Home"
+  },
+  "getting-started": {
+    "title": "Getting Started"
+  },
   "contact": {
     "title": "Contact ↗",
     "type": "page",
     "href": "https://x.com/vladimirurik",
+    "newWindow": true
+  },
+  "blog": {
+    "title": "Portfolio4me.com ↗",
+    "type": "page",
+    "href": "https://portfolio4me.com",
     "newWindow": true
   }
 }

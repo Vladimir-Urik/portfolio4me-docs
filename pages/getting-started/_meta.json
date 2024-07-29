@@ -1,5 +1,9 @@
 {
   "links": "Links",
   "aboutme": "About me",
-  "experience": "Experience"
+  "experience": "Experience",
+  "projects": "Projects",
+  "seo": {
+    "title": "SEO"
+  }
 }
