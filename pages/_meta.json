@@ -16,5 +16,8 @@
     "type": "page",
     "href": "https://portfolio4me.com",
     "newWindow": true
+  },
+  "seo": {
+    "title": "SEO"
   }
 }
