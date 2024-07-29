@@ -1,0 +1,32 @@
+import {Callout, Steps} from 'nextra/components';
+
+# Cloudflare
+
+## How to create a DNS record
+<Steps>
+    ### Open Cloudflare
+
+    Visit [CloudFlare Dashboard](https://dash.cloudflare.com) and in websites tab click on the domain you want to add the record.
+    <img src={"/cloudflare/websites.png"} alt="Websites" />
+    <img src={"/cloudflare/domain.png"} alt="Domain" />
+
+    ### DNS Settings
+
+    Click on the "DNS" tab and then on the "Add record" button.
+    <img src={"/cloudflare/dns.png"} alt="DNS" />
+    <img src={"/cloudflare/add-record.png"} alt="Add Record" />
+
+    ### Add Record
+
+    Fill in the form with the provided values from Portfolio4me and disable the proxy.
+    <img src={"/cloudflare/modal.png"} alt="Modal" />
+    <img src={"/cloudflare/add-record-form.png"} alt="Add Record Form" />
+
+    ### Save Record
+
+    Click on the "Save" button.
+
+    ### Back to Portfolio4me
+
+    Click on the "Add domain" button. If you have done everything correctly your domain should already be assigned to your portfolio and working smoothly. However, sometimes it can take up to 48 hours to sync dns records worldwide. Unfortunately we can't control that. But if you are using a good dns provider it should be fast in the order of seconds or minutes.
+</Steps>

@@ -1,0 +1,33 @@
+import {Callout, Steps} from 'nextra/components';
+
+# Custom Domain
+
+## How to setup
+<Steps>
+    ### Dashboard
+
+    Visit [Portfolio4me.com Dashboard](https://portfolio4me.com/dashboard) click on the "Custom Domain" tab.
+
+    ### Portfolio4me settings
+
+    Click on the "Add Domain" button and enter your domain or subdomain.
+
+    ### DNS Provider settings
+
+    Open your dns record for the domain with your dns provider and set up the necessary records. Unfortunately each provider has a different way to set up dns records but basically look for the "DNS Records" tab for that domain. In the subpages of this page, however, you will find the most well-known providers. The records we need to insert will be displayed on portfolio4me in the modal while entering the domain. So please add them before confirming.
+    <img src="/dns.png" alt="DNS Records" />
+
+    #### Tutorials for specific providers
+    - [Cloudflare](/custom-domain/cloudflare)
+
+    <Callout emoji="🚧">
+        If you can't find your provider here, please refer to their official documentation or contact their support. If you have any questions, feel free to ask in our [Discord](https://discord.gg/KMgJykBwqr).
+    </Callout>
+    <Callout emoji="♥️" type={"info"}>
+        If you want you can contribute more guides for specific providers. Our documentation is opensource!
+    </Callout>
+
+    ### Save
+
+    Click on the "Add domain" button. If you have done everything correctly your domain should already be assigned to your portfolio and working smoothly. However, sometimes it can take up to 48 hours to sync dns records worldwide. Unfortunately we can't control that. But if you are using a good dns provider it should be fast in the order of seconds or minutes.
+</Steps>

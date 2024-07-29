@@ -19,5 +19,8 @@
   },
   "seo": {
     "title": "SEO"
+  },
+  "custom-domain": {
+    "title": "Custom Domain"
   }
 }
