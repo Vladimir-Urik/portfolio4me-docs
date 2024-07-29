@@ -1,6 +1,13 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
+function useNextSeoProps() {
+  return {
+    titleTemplate: '%s – Portfolio4me.com',
+    description: 'Portfolio4me is a platform that allows you to create a portfolio website in minutes. It is a simple and easy-to-use platform that allows you to create a portfolio website in minutes.',
+  }
+}
+
 const config: DocsThemeConfig = {
   logo: <div style={{
     display: 'flex',
@@ -27,6 +34,8 @@ const config: DocsThemeConfig = {
   footer: {
     text: '(c) 2024 Portfolio4me.com. All rights reserved.',
   },
+  primaryHue: 330,
+  useNextSeoProps: useNextSeoProps
 }
 
 export default config
