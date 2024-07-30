@@ -1,5 +1,6 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import Script from "next/script";
 
 function useNextSeoProps() {
   return {
@@ -35,7 +36,7 @@ const config: DocsThemeConfig = {
     text: '(c) 2024 Portfolio4me.com. All rights reserved.',
   },
   primaryHue: 330,
-  useNextSeoProps: useNextSeoProps
+  useNextSeoProps: useNextSeoProps,
 }
 
 export default config
